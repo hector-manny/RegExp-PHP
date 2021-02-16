@@ -61,7 +61,7 @@
                      $patroncorreo = "/([a-z]+[._-]+[a-z]+[0-9]+[@]+[a-z]+[.]+[a-z]+)/"; 
                      if($cadena!=null && $nombre!=null && $edad!=null && $correo!=null && $DUI!=null ){
                      if (preg_match($patron1, $nombre)) {
-                         echo "<p>El nombre  $nombre que a enviado son sólo letras minúsculas.</p>\n";
+                         echo "<p>El nombre <strong>$nombre</strong> que a enviado son sólo letras minúsculas.</p>\n";
                          }
                           elseif(preg_match($mayus, $nombre)){
                                   echo "<p>El nombre <strong>$nombre</strong> que a enviado solo tiene letras mayusculas.</p>";
