@@ -24,7 +24,7 @@
                   <br>
                   <form class="form-row" method="POST">
                      <div class="input-group mb-3">
-                        <input type="text"name="nombre" class="form-control" placeholder="Nombre Completo" required>
+                        <input type="text"name="nombre" class="form-control" placeholder="Nombre Completo Todo mayúsculas o Todo minúsculas" required>
                      </div>
                      <div class="input-group mb-3">
                         <input type="text" name="correo" class="form-control" placeholder="ejemplo-ejemplo123@email.com" required >
