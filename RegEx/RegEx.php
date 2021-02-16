@@ -34,8 +34,8 @@
                         <input type="text" name="edad" class="form-control"  placeholder="Edad" required>
                      </div>
                      <div class="input-group">
-                        <span class="input-group-text">Ingrese un texto</span>
-                        <input type="text" name="texto" class="form-control" placeholder="Ingrese un texto" required>
+                        <span class="input-group-text">Ingrese una palabra</span>
+                        <input type="text" name="texto" class="form-control" placeholder="Ingrese una palabra" required>
                      </div>
                      <br>
                      <br>
@@ -82,12 +82,12 @@
                      echo "<p>La edad <strong>$edad</strong> no son números por favor ingresa tu edad en numeros.</p>\n";
                      }
                      if (preg_match($patron2, $cadena)) {
-                         echo "<p>La cadena <strong>$cadena</strong> son sólo letras minúsculas o mayúsculas.</p>\n";
+                         echo "<p>La palabra <strong>$cadena</strong> son sólo letras minúsculas o mayúsculas.</p>\n";
                      } elseif(preg_match($patron,$cadena)){
-                         echo "<p>La cadena <strong>$cadena</strong> son sólo numeros.</p>\n";
+                         echo "<p>La palabra <strong>$cadena</strong> son sólo numeros.</p>\n";
                      }
                      }else{
-                      echo "<p>Por favor ingresa una cadena de texto.</p>";
+                      echo "<p>Por favor ingresa los datos.</p>";
                      }
                      ?>
                </div>
